@@ -3,8 +3,13 @@ import CreditCard from "./components/CreditCard";
 
 function App() {
   return (
-    <>
-      {/* <CreditCard
+    <div
+      style={{
+        flexDirection: "row",
+        display: "flex",
+      }}
+    >
+      <CreditCard
         type="Visa"
         number="0123456789018875"
         expirationMonth={3}
@@ -35,9 +40,8 @@ function App() {
         owner="Firstname Lastname"
         bgColor="#ddbb55"
         color="white"
-      /> */}
-      <CreditCard></CreditCard>
-    </>
+      />
+    </div>
   );
 }
 
