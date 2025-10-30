@@ -1,8 +1,11 @@
 import "./App.css";
 import CreditCard from "./components/CreditCard";
+import BoxColor from "./components/BoxColor";
 
 function App() {
   return (
+    
+    <>
     <div
       style={{
         flexDirection: "row",
@@ -42,6 +45,11 @@ function App() {
         color="white"
       />
     </div>
+
+    <BoxColor r= {255} g ={0} b={0}> </BoxColor>
+    <BoxColor r={128} g={255} b={0}></BoxColor>
+
+    </>
   );
 }
 
